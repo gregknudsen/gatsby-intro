@@ -9,7 +9,8 @@ export default () => (
     <div>
       <h1>Home</h1>
       <p> Hello Frontend Masters!</p>
-      <Link to="/about">Learn about me!</Link>
+      <Link to="/about">Learn about me!</Link> <br />
+      <Link to="/contact">Contact me!</Link>
     </div>
   </Layout>
   )
