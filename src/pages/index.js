@@ -1,20 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import usePosts from '../hooks/use-posts'
 import Layout from '../components/layout';
-
+import usePosts from '../hooks/use-posts'
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
-const Index = () => {
+export default () => {
   const posts = usePosts();
 
   return (
     <Layout>
       <div>
         <h1>Home</h1>
-        <p> Hello Frontend Masters!</p>
-        <Link to="/about">Learn about me!</Link> <br />
-        <Link to="/contact">Contact me!</Link>
+        <p>Hello Frontend Masters!</p>
+        <Link to="/about">Learn about me! &rarr;</Link> <br />
+        <Link to = "/contact"> Contact me! & rarr;</Link>
 
         <h2>Blog Posts!</h2>
         {posts.map(post => (
@@ -24,5 +22,3 @@ const Index = () => {
     </Layout>
   );
 };
-
-export default Index;

@@ -1,9 +1,8 @@
-import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const usePosts = () => {
   const data = useStaticQuery(graphql`
-    {
+    query {
       allMdx {
         nodes {
           frontmatter {
@@ -25,4 +24,4 @@ const usePosts = () => {
   }));
 };
 
-export default usePosts();
+export default usePosts;
