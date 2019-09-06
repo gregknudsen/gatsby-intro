@@ -31,7 +31,6 @@ const PostTemplate = ({ data: { mdx: post } }) => {
         Posted by {post.frontmatter.author}
       </p>
       <MDXRenderer>{post.body}</MDXRenderer>
-      {/* <p>{excerpt}</p> */}
       <ReadLink to="/">&larr; back to all posts</ReadLink>
     </Layout>
 )
