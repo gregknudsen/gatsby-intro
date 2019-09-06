@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 import Header from './header';
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Global 
+      <Global
         styles={css`
           * {
             box-sizing: border-box;
@@ -48,22 +48,6 @@ const Layout = ({ children }) => {
             }
           }
 
-<<<<<<< HEAD
-        `} 
-      />
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-      </Helmet>
-      <Header />
-      <main
-        css={css`
-        margin: 2rem auto 4rem;
-        max-width: 90vw;
-        width: 550px;
-        `}
-=======
         `} />
         <Helmet>
           <html lang="en" />
@@ -77,16 +61,12 @@ const Layout = ({ children }) => {
             max-width: 90vw;
             width: 550px;
           `}
->>>>>>> 778db745c1565d6f55daa2be4e8a73cea633048f
       >
           {children}
         </main>
     </>
   );
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 778db745c1565d6f55daa2be4e8a73cea633048f
 export default Layout;
 
