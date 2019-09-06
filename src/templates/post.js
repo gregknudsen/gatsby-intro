@@ -13,15 +13,12 @@ export const query = graphql`
         title
         author
       }
-      code {
-        body
-      }
+      body
     }
   }
 `;
 
 const PostTemplate = ({ data: { mdx: post } }) => {
-  // const {title, author, excerpt} = UsePosts();
 
   return (
     <Layout>
@@ -33,8 +30,8 @@ const PostTemplate = ({ data: { mdx: post } }) => {
       >
         Posted by {post.frontmatter.author}
       </p>
-      <MDXRenderer>{post.code.body}</MDXRenderer>
-      <p>{excerpt}</p>
+      <MDXRenderer>{post.body}</MDXRenderer>
+      {/* <p>{excerpt}</p> */}
       <ReadLink to="/">&larr; back to all posts</ReadLink>
     </Layout>
 )
