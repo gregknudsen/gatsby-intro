@@ -1,5 +1,12 @@
 module.exports = {
   siteMetadata: {
+<<<<<<< HEAD
+    title: 'Front End Masters Gatsby Workshop',
+    description: 'A site build together at FEM'
+  },
+  plugins: ['gatsby-plugin-emotion', 'gatsby-plugin-react-helmet']
+};
+=======
     title: 'Frontend Masters Gatsby Introduction',
     description: 'Fun was had by all!',
     email: 'abc@123.com'
@@ -23,3 +30,4 @@ module.exports = {
   }
 ]
 }
+>>>>>>> 778db745c1565d6f55daa2be4e8a73cea633048f
