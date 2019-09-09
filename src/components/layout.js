@@ -17,14 +17,14 @@ const Layout = ({ children }) => {
           }
 
           * + * {
-            margin-top: 1rem;
+            margin-top: 0;
           }
 
           html,
           body {
             margin: 0;
             color: #555;
-            font-family: sans-serif;
+            font-family: Helvetica, sans-serif;
             font-size: 18px;
             line-height: 1.4;
             > div {
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
               color: #222;
               line-height: 1.1;
               + * {
-                margin-top: 0.5 rem;
+                margin-top: 0;
               }
             }
 
@@ -45,6 +45,10 @@ const Layout = ({ children }) => {
 
             li {
               margin-top: 0.25rem;
+            }
+
+            .gatsby-resp-image-background-image {
+              padding-bottom: 0 !important;
             }
           }
 
