@@ -1,4 +1,4 @@
-Here is the site on Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/0ab16313-1fef-4327-b819-e8fddef90b49/deploy-status)](https://app.netlify.com/sites/gregk-fem-gatsby/deploys)
+Here is the site on Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/0ab16313-1fef-4327-b819-e8fddef90b49/deploy-status)](https://gregk-fem-gatsby.netlify.com)
 Great course!
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
