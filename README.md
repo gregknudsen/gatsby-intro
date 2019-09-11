@@ -1,3 +1,6 @@
+Here is the site on Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/0ab16313-1fef-4327-b819-e8fddef90b49/deploy-status)](https://app.netlify.com/sites/gregk-fem-gatsby/deploys)
+Great course!
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -27,8 +30,8 @@ In this course, learn to build blazing fast apps and websites with React using G
 For windows users, go through the installation instructions for [cross-env](https://github.com/kentcdodds/cross-env) and add it to your `package.json` develop script.
 
 1. `npm install`
-1. `npm run develop`
-1. Open http://localhost:8000/
+2. `npm run develop`
+3. Open http://localhost:8000/
 
 [Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
 
